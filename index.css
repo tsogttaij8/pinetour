@@ -1,0 +1,181 @@
+ .bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  margin: 0;
+}
+.section1 {
+  height: 773px;
+  background-image: url("./section1.png");
+  background-size: cover;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.begin{
+  width: 300px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 10px;
+ 
+} 
+.word1 {
+  font-size: 18px;
+  color: aliceblue;
+}
+.logo1 {
+  width: 100px;
+  height: 34px;
+  display: flex;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;}
+
+.pure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+
+}
+.h1{ 
+  display: flex;
+  /* justify-content: ; */
+}
+.word2{
+  font-size: 80px;
+  text-align: center;
+  color: rgba(232, 237, 242, 0.72);
+}
+.word3 { 
+  font-size: 150px;
+  color:aliceblue
+}
+.word4 {
+  font-size: 64px;
+color: rgba(232, 237, 242, 0.72);}
+.section2 {
+  background-image: url(location-image.png);
+  background-size: cover;
+  height: 773px;  
+}
+.navigation2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  gap: 40px;
+}
+.card {
+  width: 275.49px;
+  height: 370px;
+background-color: aqua;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170,0.46), 8px 8px 0 0 rgba( 41, 114, 139, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  background-image: url(/1.png);
+  background-size: cover;
+}
+.img2{
+  background-image: url(/2.png);
+  background-size: cover;
+}
+.img3{
+  background-image: url(/3.png);
+  background-size: cover;
+}
+.img4{
+  background-image: url(/4.png);
+  background-size: cover;
+}
+.word5{
+  color: rgba(253, 253, 254, 0.80);
+  text-align: center;
+  font-size: 25px;
+}
+.section3{
+  background-image: url(/Roadmap\ image.png);
+  background-size: cover;
+  height: 1022px;
+}
+.Destination {
+  font-weight: 600px;
+  height: normal;
+  font-size:42px ;
+  text-align: center;
+ 
+}
+.Pack {
+  font-weight: 500;
+  height: normal;
+  font-size: 20px; 
+  text-align: center;
+  
+}
+.list {
+  width: 553px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  gap: 20px;
+}
+.list-card {
+  height: 100px;
+  width: 453px;
+  border-radius: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.list-card1 {
+  background-color: #EEE9D9 ;
+}
+.list-card2 {
+background: rgba(139, 184, 193, 0.80);
+}
+.list-card3 {
+  background: rgba(170, 216, 215, 0.80);
+}
+.list-card4 {
+  background: rgba(139, 192, 189, 0.80);
+}
+.list-card5 {
+  background: rgba(151, 204, 224, 0.80);
+}
+.word {
+  font-size: 24px;
+}
+.icon {
+  width: 14px;
+  height: 14px;
+}
+.flex {
+  display: flex;
+ align-items: center;
+}
