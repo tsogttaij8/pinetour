@@ -117,68 +117,308 @@ background-color: aqua;
   text-align: center;
   font-size: 25px;
 }
-.section3{
+.section3 {
   background-image: url(/Roadmap\ image.png);
   background-size: cover;
-  height: 1022px;
+  height: 773px;
+  position: relative;
 }
-.Destination {
-  font-weight: 600px;
-  height: normal;
-  font-size:42px ;
-  text-align: center;
- 
-}
-.Pack {
-  font-weight: 500;
-  height: normal;
-  font-size: 20px; 
-  text-align: center;
-  
-}
-.list {
-  width: 553px;
-  height: 640px;
+.navigation3 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.word8 {
+  color: rgba(24, 24, 27, 0.7);
+  padding-bottom: 50px;
+}
+.destination_list {
+  width: 553px;
+  height: 640px;
   padding-left: 100px;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
-.list-card {
+.destination-card {
   height: 100px;
   width: 453px;
   border-radius: 120px;
   padding-left: 30px;
   padding-right: 30px;
+}
+.destination-card1 {
+  background-color: #eee9d9;
+}
+.destination-card2 {
+  background-color: rgba(139, 184, 193, 0.8);
+}
+.destination-card3 {
+  background: rgba(170, 216, 215, 0.8);
+}
+.destination-card4 {
+  background: rgba(139, 192, 189, 0.8);
+}
+.destination-card5 {
+  background: rgba(151, 204, 224, 0.8);
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex {
   display: flex;
   align-items: center;
 }
-.list-card1 {
-  background-color: #EEE9D9 ;
-}
-.list-card2 {
-background: rgba(139, 184, 193, 0.80);
-}
-.list-card3 {
-  background: rgba(170, 216, 215, 0.80);
-}
-.list-card4 {
-  background: rgba(139, 192, 189, 0.80);
-}
-.list-card5 {
-  background: rgba(151, 204, 224, 0.80);
-}
-.word {
+.word9 {
   font-size: 24px;
+}
+.word10 {
+  font-size: 12px;
+}
+.circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
 .icon {
   width: 14px;
   height: 14px;
-}
-.flex {
   display: flex;
- align-items: center;
+  justify-content: left;
 }
-.flex-center {
-  
+.map {
+  width: 647px;
+  height: 640px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.mappin {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.one {
+  right: 241px;
+  top: 449px;
+}
+.destination-card1:hover {
+  border: 5px solid white;
+}
+.destination-card2:hover {
+  border: 5px solid white;
+}
+.destination-card3:hover {
+  border: 5px solid white;
+}
+.destination-card4:hover {
+  border: 5px solid white;
+}
+.destination-card5:hover {
+  border: 5px solid white;
+}
+.two {
+  right: 454px;
+  top: 306px;
+}
+.three {
+  top: 428px;
+  right: 626px;
+}
+.four {
+  top: 680px;
+  right: 454px;
+}
+.circle-image {
+  width: 245px;
+  height: 245px;
+  background-image: url(/Frame\ 176.png);
+  background-size: cover;
+  position: absolute;
+  top: 345px;
+  right: 150px;
+  display: none;
+}
+.destination-card1:hover ~ .circle-image {
+  display: block;
+}
+.circle-image2 {
+  width: 245px;
+  height: 245px;
+  background-image: url(/Frame\ 177.png);
+  background-size: cover;
+  position: absolute;
+  top: 200px;
+  right:350px;
+  display: none;
+}
+.destination-card2:hover ~ .circle-image2 {
+  display: block;}
+
+.circle-image3 {
+  width: 245px;
+  height: 245px;
+  background-image: url(/11111.png);
+  background-size: cover;
+  position: absolute;
+  top: 360px;
+  right: 450px;
+  display: none;
+}
+.destination-card3:hover ~ .circle-image3 {
+  display: block;
+}
+.circle-image4 {
+  width: 245px;
+  height: 245px;
+  background-image: url(/Frame\ 178\ \(1\).png);
+  background-size: cover;
+  position: absolute;
+  top: 180px;
+  right: 520px;
+  display: none;
+}
+.destination-card4:hover ~ .circle-image4 {
+  display: block;
+}
+
+.circle-image5 {
+  width: 245px;
+  height: 245px;
+  background-image: url(/Frame\ 179.png);
+  background-size: cover;
+  position: absolute;
+  top: 190px;
+  right: 360px;
+  display: none;
+}
+.destination-card5:hover ~ .circle-image5 {
+  display: block;
+}
+.section4 {
+  background-image: url(/Price&Footer\ image.png);
+  background-size: cover;
+  height: 1120px;
+}
+.word11 {
+  font-size: 42px;
+  text-align: center;
+}
+.word12 {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(24, 24, 27, 0.70);
+}
+.package {
+  width: 1200px;
+  height: 527px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap: 24px;
+}
+.card2 {
+  height: 527px;
+  width: 384px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.neg {
+  width: 384px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  gap: 15px;
+}
+.zurhh {
+  width: 35px;
+  height: 35px;
+}
+.word13 {
+  font-size: 18px;
+}
+.hoyr {
+  width: 384px;
+  height: 433px;
+}
+
+.dolla {
+  font-size: 40px;
+}
+.essential {
+  font-size: 16px;
+  color: #919191;
+}
+.flex-center3 {
+  padding-left: 30px;
+}
+.inc {
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.checkk {
+  width: 20px;
+  height: 20px;
+}
+.word14 {
+  font-size: 14px;
+}
+.list1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list2 {
+  display: flex;
+}
+.select {
+  width: 336px;
+  height: 48px;
+  margin-top: 50px;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #a4d1e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.zurag{
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 200px;
+  margin-top: 200px;
+  gap: 20px;
+  ;
+}
+.fb1 {
+  width: 167px;
+  height: 44px;
+  border-radius: var(--radius-rounded-full, 9999px);
+background: #FAFBFC;
+display: flex;
+gap: 10px;
+padding-left: 10px;
+align-items: center;
+}
+.fb {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: self-end;
 }
